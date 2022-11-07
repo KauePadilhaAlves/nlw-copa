@@ -24,20 +24,25 @@ body.green {
 ul {
   list-style: none;
 }
+ul li img{
+  width: 50px;
+  height: 50px;
+}
 body * {
   font-family: "Roboto", sans-serif;
 }
 body {
   background-color: #121214;
   background-image: var(--bg);
-  background-position: center;
-  background-repeat: no repeat;
+  background-position: top center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 #app {
   width: fit-content;
   margin: auto;
   padding-top: 52px;
+  padding-bottom: 52px;
 }
 header {
   margin-bottom: 63px;
